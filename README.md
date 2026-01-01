@@ -45,27 +45,3 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 
 
 
-### Prerequisites
-
-Before you begin, ensure you have the following installed on your machine:
-
-| Tool                   | Minimum Version | Download Link                               |
-| ---------------------- | --------------- | ------------------------------------------- |
-| **Node.js**            | v18.17.0+       | [Download](https://nodejs.org/en/download/) |
-| **Git**                | Latest          | [Download](https://git-scm.com/downloads)   |
-| **pnpm** (recommended) | Latest          | [Install](https://pnpm.io/installation)     |
-
-> **Note**: Next.js 16 requires Node.js 18.17 or later. Node.js 20+ is recommended for optimal performance.
-
-#### Verify Installation
-
-Check your installations with these commands:
-
-```bash
-node --version
-git --version
-pnpm --version  # or npm --version
-```
-
----
-
