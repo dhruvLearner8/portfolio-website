@@ -10,17 +10,40 @@ export const projectsData = [
         demo: '',
     },
     {
+        
         id: 2,
+        name: 'Blood Report Analyzer with ChatBot',
+        //description:"Developed an AI-powered IT support assistant that enables teams to quickly retrieve accurate answers from internal manuals and SOPs. Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain and ChromaDB, integrating LLaMA 3 / OpenAI models to deliver context-aware, grounded responses and reduce manual document search time",
+        description: "•	Built an end-to-end AI assistant enabling users to upload Blood Reports and AI automatically generates structured summaries including lab values, status, and key insights.  Integrated a follow-up chat interface where users can ask questions about their reports, and the AI provides clear, empathetic, point-wise explanations with medical disclaimers in python.",
+        tools: ["React.js", "TypeScript",'RAG', 'LangChain', 'OpenAI models','chromaDB', 'Vector Embeddings','pyTorch'],
+        role: 'Full stack AI Engineer',
+       
+        demo: 'https://medisense-ai-medical-report-interpreter-774762011618.us-west1.run.app/',
+    
+    },
+    {
+        id: 3,
+        name: 'Automated Sports Viewport Tracking System',
+        //description:"Developed an AI-powered IT support assistant that enables teams to quickly retrieve accurate answers from internal manuals and SOPs. Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain and ChromaDB, integrating LLaMA 3 / OpenAI models to deliver context-aware, grounded responses and reduce manual document search time",
+        description: "•	Engineered a 4-stage multiprocessing pipeline with queue-based backpressure management for high-throughput, real-time video analysis. Developed OpenCV-driven motion detection and state-machine tracking with SMA smoothing to produce stable, broadcast-quality crops.",
+        tools: ["Python","System Design", "OpenCV","Docker"],
+        role: 'Full stack AI Engineer',
+        Code : "https://github.com/dhruvLearner8/Viewport-Calculator-Home-Team-AI"
+        
+    
+    },
+    {
+        id: 3,
         name: 'AI Powered IT Support Assistant',
         //description:"Developed an AI-powered IT support assistant that enables teams to quickly retrieve accurate answers from internal manuals and SOPs. Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain and ChromaDB, integrating LLaMA 3 / OpenAI models to deliver context-aware, grounded responses and reduce manual document search time",
         description: "Designed an AI-driven IT support assistant where each user query is automatically classified into one of five categories (Firewall, VPN, Network Issues, System Access, and Hardware/Software Errors). Based on the category, the system searches relevant online sources, retrieves the top three matching documents, and generates accurate answers by comparing vector embeddings to ensure contextually grounded responses.",
         tools: ['RAG', 'LangChain', 'OpenAI models','chromaDB', 'Vector Embeddings','pyTorch'],
         role: 'AI Engineer',
         code: '',
-        demo: '',
+       
     },
     {
-        id: 3,
+        id: 4,
         name: 'GDP Vs Population',
         //description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
         description: "Developed an interactive data visualization dashboard to analyze the relationship between GDP growth, CO₂ emissions, and population trends across multiple countries. The application enables dynamic exploration through scatterplots, zooming, animations, and time-based comparisons, helping identify patterns, correlations, and trade-offs between economic development and environmental impact. Designed to support data-driven insights for policymakers and researchers.",
@@ -30,7 +53,7 @@ export const projectsData = [
         demo: 'https://cs-837-visualization.vercel.app/',
     },
     {
-        id: 4,
+        id: 5,
         name: 'News Blog WebApp',
         description: 'Made a News Blog Webapp, where user can read news from top News channel, search news, filter by category. Users can also post Their Blogs and view blogs of other people as well.',
         tools: ['Django','Python','REST Framework', 'Serializers', 'Cronjob', 'JWT'],
@@ -39,7 +62,7 @@ export const projectsData = [
         demo: '',
     },
     {
-        id: 5,
+        id: 6,
         name: 'E-commerce WebApp',
         //description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         description: "Designed and developed a full-featured e-commerce platform with secure user authentication and role-based access control. Implemented middleware-driven request handling and JWT-based authorization to manage different user roles such as customers, sellers, and administrators. The system supports protected routes, secure transactions, and scalable business workflows, ensuring both data security and a smooth user experience.",
@@ -50,7 +73,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
     },
     {
-        id: 6,
+        id: 7,
         name: 'Pollution Forecasting with AWS',
       
         description: "Developed an end-to-end pollution forecasting system to predict PM2.5 levels and analyze air quality trends over time. The project focused on feature engineering, model comparison, and automated retraining workflows to improve prediction accuracy and reliability. Results were visualized through interactive dashboards, enabling data-driven insights for environmental monitoring and policy planning.",
